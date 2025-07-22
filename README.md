@@ -1,7 +1,3 @@
-Absolutely, Harshavardhan! Here’s a polished and structured `README.md` for your **Gaming-python** project based on the content you shared:
-
----
-
 Interactive desktop games developed using **Python** and the **Pygame** library.
 
 ##  Overview
