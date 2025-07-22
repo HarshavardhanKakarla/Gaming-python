@@ -7,6 +7,12 @@ This repository showcases classic arcade-style games built in Python, featuring 
 ### Included Games:
 -  **Snake Game**
 -  **Lane Car Racing Game**
+ 
+<p float="center">
+  <img src="https://github.com/HarshavardhanKakarla/Gaming-python/blob/88e31dc6adfa86e2f5e4653b172000e31e7808ee/Screenshot%202025-07-22%20193257.png" width="45%" />
+  <img src="https://github.com/HarshavardhanKakarla/Gaming-python/blob/88e31dc6adfa86e2f5e4653b172000e31e7808ee/Screenshot%202025-07-22%20193419.png" width="45%" /> 
+</p>
+  
 
 ##  Features
 
