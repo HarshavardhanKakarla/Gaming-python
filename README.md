@@ -39,16 +39,14 @@ This repository showcases classic arcade-style games built in Python, featuring 
 - Python 3  
 - Pygame (for rendering, event handling, and game logic)  
 - Custom image assets:
-  - `player_car.png`
-  - `enemy_car.png`
+
 
 ##  Repository Structure
 
 ```
 Gaming-python/
 ├── app.py             # Main game launcher with menu
-├── player_car.png     # Asset for player car
-├── enemy_car.png      # Asset for enemy cars
+├── images     # Asset  images
 ```
 
 ##  Getting Started
@@ -67,9 +65,7 @@ pip install pygame
 ```
 
 ### 3. Confirm Assets
-Ensure the following files are in the same directory as `app.py`:
-- `player_car.png`
-- `enemy_car.png`
+Ensure the  files are in the  folder `images` to run the code
 
 ### 4. Run the Application
 ```bash
