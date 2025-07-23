@@ -84,7 +84,7 @@ def get_random_food_position(snake_positions):
             return pos
 # Snake Game
 def snake_game():
-    SPEED = 13
+    SPEED = snake_menu()
     snake_pos = [[100, 100], [80, 100], [60, 100]]
     snake_dir = 'RIGHT'
     move_x, move_y = CELL_SIZE, 0
@@ -172,7 +172,7 @@ def snake_game():
         pygame.display.flip()
         clock.tick(SPEED)
         direction_changed = False
-
+# Menu to select difficulty
 def snake_menu():
     while True:
         screen.fill(BLACK)
@@ -280,7 +280,7 @@ def car_racing_game():
         pygame.display.flip()
         clock.tick(FPS)
 
-# car menu
+# Menu to select difficulty
 def car_menu():
     while True:
         screen.fill(BLACK)
@@ -301,6 +301,6 @@ def car_menu():
                     return 20
 
 
-# Run the game selection menu
+# Run the game
 if __name__ == '__main__':
     main_menu()
