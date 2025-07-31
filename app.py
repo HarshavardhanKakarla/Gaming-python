@@ -94,6 +94,13 @@ def snake_game():
     running = True
 
     while running:
+        # TO ADD BACKGROUND MUSIC WHILE PLAYING
+        # try:
+        #    pygame.mixer.music.load("assets/bgm.mp3")
+        #    pygame.mixer.music.set_volume(0.5)
+        #    pygame.mixer.music.play(-1)
+        # except pygame.error:
+        #    print("Music file not found, continuing without music.")
         screen.fill(BLACK)
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
@@ -214,6 +221,13 @@ def car_racing_game():
     max_enemy_count = 8
 
     while True:
+        # TO ADD BACKGROUND MUSIC WHILE PLAYING
+        # try:
+        #    pygame.mixer.music.load("assets/bgm.mp3")
+        #    pygame.mixer.music.set_volume(0.5)
+        #    pygame.mixer.music.play(-1)
+        # except pygame.error:
+        #    print("Music file not found, continuing without music.")
         screen.fill((20, 120, 20))
         pygame.draw.rect(screen, ROAD_COLOR, (LANE_WIDTH // 2, 0, WINDOW_WIDTH - LANE_WIDTH, WINDOW_HEIGHT))
         for i in range(1, LANE_COUNT):
