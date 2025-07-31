@@ -65,7 +65,8 @@ pip install pygame
 ```
 
 ### 3. Confirm Assets
-Ensure the  files are in the  folder `images` to run the code
+Ensure the  files are in the  folder `images` to run the code  
+To add background music make sure to make chages accordingly
 
 ### 4. Run the Application
 ```bash
